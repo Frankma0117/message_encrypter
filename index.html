@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Encriptador de Mensajes</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="encrypt-section">
+            <div class="vertical-ubication">
+                <img class="logo-alura" src="images/logo.png" alt="Logo de Alura">
+                <textarea class="message-encrypter" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="horizontal-ubication">
+                    <img class="information-icon" src="images/information_icon.png" alt="Icono de información">
+                    <p class="instructions-message">Solo letras minúsculas y sin acentos</p>
+
+                </div>
+                <div class="horizontal-ubication">
+                    <input class="encrypt-button" type="submit" value="Encriptar">
+                    <input class="decrypt-button" type="submit" value="Desencriptar">
+                </div>
+            </div>
+
+        </section>
+        <section class="decrypt-section">
+            <div class="central-panel">
+                <img class="result-imagen" src="images/result_image.png" alt="Imagen de busqueda">
+                <h3 class="title-result">Ningún mensaje fue encontrado</h3>
+                <p class="information-result">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </section>
+
+        <section class="result-section">
+            <div class="central-panel">
+                <p class="result-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam
+                    risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget
+                    fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.</p>
+                <input class="copy-button" type="submit" value="Copiar">
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer></footer>
+    <script src="message_encrypter.js">
+    </script>
+</body>
+
+</html>

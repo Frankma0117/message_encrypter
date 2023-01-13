@@ -1,0 +1,205 @@
+/*General styles*/
+body {
+  background: #f3f5fc;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.vertical-ubication {
+  display: flex;
+  flex-direction: column;
+}
+.horizontal-ubication {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Encrypt styles - Left section*/
+.encrypt-section {
+  width: 65%;
+  height: 100vh;
+  background: #f3f5fc;
+}
+.logo-alura {
+  width: 100px;
+  height: 40px;
+  margin-top: 5vh;
+  margin-left: 1vw;
+}
+.message-encrypter {
+  background: transparent;
+  border: none;
+  resize: none;
+  margin: 2vw 17vw;
+  height: 55vh;
+  font-family: "Inter", sans-serif;
+  color: #0a3871;
+  font-size: 16pt;
+  line-height: 30px;
+}
+.message-encrypter:focus {
+  outline: none;
+}
+.message-encrypter::placeholder {
+  font-family: "Inter", sans-serif;
+  color: #0a3871;
+  font-size: 16pt;
+}
+.encrypt-section .horizontal-ubication {
+  margin: 0px 40vw 1vh 17vw;
+  width: 70vw;
+}
+.instructions-message {
+  margin-left: 10px;
+  font-family: "Inter", sans-serif;
+  color: #495057;
+  font-size: 10pt;
+}
+.encrypt-button {
+  width: 20vw;
+  height: 50px;
+  border-radius: 17px;
+  background: #0a3871;
+  color: #ffffff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 12pt;
+}
+.encrypt-button:hover,
+.decrypt-button:hover {
+  cursor: pointer;
+}
+.decrypt-button,
+.copy-button {
+  margin-left: 3vw;
+  width: 20vw;
+  height: 50px;
+  border-radius: 17px;
+  background: #d8dfe8;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+  font-family: "Inter", sans-serif;
+  font-size: 12pt;
+}
+
+/*Decrypt styles - Rigth section*/
+.decrypt-section,
+.result-section {
+  display: flex;
+  flex-direction: column;
+  background: #f3f5fc;
+  width: 35%;
+}
+.central-panel {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  height: 95vh;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  margin-left: 4%;
+  margin-top: 4%;
+  box-shadow: -1px 2px 22px -3px rgba(0, 0, 0, 0.38);
+}
+
+.result-imagen {
+  margin-top: 20%;
+  margin-left: 15%;
+  width: 70%;
+  height: 40vh;
+}
+.title-result {
+  margin-top: 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+}
+.information-result {
+  margin-top: 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 12pt;
+}
+
+/*Result styles*/
+
+.result-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10vh;
+  font-family: "Inter", sans-serif;
+  width: 70%;
+  height: 62vh;
+  line-height: 25px;
+  font-size: 14pt;
+  color: #495057;
+}
+.copy-button {
+  margin-top: 2.5vh;
+}
+
+@media (max-width: 770px) {
+  main {
+    flex-direction: column;
+  }
+
+  .encrypt-section {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .logo-alura{
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .message-encrypter,.encrypt-section .horizontal-ubication {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .encrypt-button,.decrypt-button{
+    width: 50%;
+  }
+
+  .decrypt-section , .result-section{
+    width: 100%;
+  }
+
+  .central-panel {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    margin-top : 0px;
+    margin-bottom: 5vh;
+    height: 15vh;
+    padding-bottom: 5vh;
+  }
+
+  .result-section .central-panel{
+    height: 40vh;
+  }
+
+  .result-text{
+    width: 80%;
+    margin-left: 10%;
+    height: 25vh;
+    text-align: left;
+  }
+
+
+
+  .copy-button{
+    align-self: center;
+    width: 50%;
+  }
+
+
+
+  .result-imagen {
+    display: none;
+  }
+}
