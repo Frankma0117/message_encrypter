@@ -8,6 +8,7 @@ const copyButton = document.querySelector(".copy-button");
 const resultSectionImagen = document.querySelector(".decrypt-section");
 const resultSectionText = document.querySelector(".result-section");
 const resultText = document.querySelector(".result-text");
+const deleteText = document.querySelector(".delete-icon");
 
 /*Selectors modal section*/
 const modal = document.querySelector(".modal");
@@ -102,8 +103,12 @@ function copyOption() {
 function close() {
   modal.classList.remove("modal-show");
 }
+function cleanText(){
+  message.value = "";
+}
 
 encryptButton.onclick = encrypt;
 decryptButton.onclick = decrypt;
 copyButton.onclick = copyOption;
 closeModal.onclick = close;
+deleteText.onclick = cleanText;
