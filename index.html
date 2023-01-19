@@ -17,18 +17,19 @@
 
 <body>
     <header>
+        <a href="https://www.aluracursos.com/"><img class="logo-aplication" src="images/logo.png"
+                alt="Logo de Alura"></a>
+        <span>🔑 Encriptador de mensajes 🔐</span>
     </header>
     <main>
         <section class="encrypt-section">
             <div class="vertical-ubication">
-                <img class="logo-alura" src="images/logo.png" alt="Logo de Alura">
-                <textarea class="message-encrypter" placeholder="Ingrese el texto aquí"></textarea>
+                <textarea class="message-encrypter" spellcheck="false" placeholder="Ingresa tu mensaje aquí"></textarea>
                 <div class="horizontal-ubication">
                     <img class="information-icon" src="images/information_icon.png" alt="Icono de información">
                     <p class="instructions-message">Solo letras minúsculas y sin acentos</p>
-
                 </div>
-                <div class="horizontal-ubication">
+                <div class="buttons_container">
                     <input class="encrypt-button" type="submit" value="Encriptar">
                     <input class="decrypt-button" type="submit" value="Desencriptar">
                 </div>
@@ -42,7 +43,6 @@
                 <p class="information-result">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
         </section>
-
         <section class="result-section">
             <div class="central-panel">
                 <p class="result-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam
@@ -51,12 +51,29 @@
                 <input class="copy-button" type="submit" value="Copiar">
             </div>
         </section>
+        <section class="modal">
+            <div class="modal-container">
+                <img class="modal-img">
+                <h2 class="modal-title"></h2>
+                <p class="modal-message"></p>
+                <button class="modal-close">Aceptar</button>
+            </div>
+        </section>
 
 
 
 
     </main>
-    <footer></footer>
+    <footer>
+        <h1 class="copyright_text"></h1>
+        <a href="https://github.com/Frankma0117"><img class="footer-img" src="images/git_hub_logo.png"
+                alt="Logo de GitHub"></a>
+        <a href="https://www.linkedin.com/in/manuel-ca%C3%B1%C3%B3n-b6245118a"><img class="footer-img"
+                src="images/linkedin_logo.png" alt="Logo de LinkedIn"></a>
+
+
+
+    </footer>
     <script src="message_encrypter.js">
     </script>
 </body>

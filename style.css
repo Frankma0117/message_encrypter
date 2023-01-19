@@ -2,38 +2,84 @@
 body {
   background: #f3f5fc;
 }
+/*Styles header - Title animation*/
+header {
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  display: flex;
+  width: 100vw;
+  height: 5vh;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  background: #0a3871;
+  font-weight: bold;
+  font-size: 20pt;
+}
+.logo-aplication {
+  width: 80px;
+  height: 30px;
+  margin-right: 25vw;
+}
+
+.logo-aplication:hover , .footer-img:hover{
+  animation-name: rotateImagen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotateImagen {
+
+  from{
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
+  
+}
+
+header span {
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  animation: typing 5s steps(50);
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+/*Styles Main - Central content of aplication*/
 main {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
+/*Styles generals Divs ubication*/
 .vertical-ubication {
   display: flex;
   flex-direction: column;
 }
-.horizontal-ubication {
+.horizontal-ubication,
+.buttons_container {
   display: flex;
   flex-direction: row;
 }
-
 /*Encrypt styles - Left section*/
 .encrypt-section {
-  width: 65%;
-  height: 100vh;
+  width: 65vw;
+  height: 80vh;
   background: #f3f5fc;
-}
-.logo-alura {
-  width: 100px;
-  height: 40px;
-  margin-top: 5vh;
-  margin-left: 1vw;
 }
 .message-encrypter {
   background: transparent;
   border: none;
   resize: none;
-  margin: 2vw 17vw;
-  height: 55vh;
+  margin: 5vw 10vw;
+  height: 45vh;
+  width: 40vw;
   font-family: "Inter", sans-serif;
   color: #0a3871;
   font-size: 16pt;
@@ -47,8 +93,9 @@ main {
   color: #0a3871;
   font-size: 16pt;
 }
-.encrypt-section .horizontal-ubication {
-  margin: 0px 40vw 1vh 17vw;
+.encrypt-section .horizontal-ubication,
+.buttons_container {
+  margin: 0px 40vw 1vh 10vw;
   width: 70vw;
 }
 .instructions-message {
@@ -68,8 +115,9 @@ main {
   font-size: 12pt;
 }
 .encrypt-button:hover,
-.decrypt-button:hover {
+.decrypt-button:hover, .copy-button:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 .decrypt-button,
 .copy-button {
@@ -85,12 +133,12 @@ main {
 }
 
 /*Decrypt styles - Rigth section*/
-.decrypt-section,
-.result-section {
+.decrypt-section {
   display: flex;
   flex-direction: column;
-  background: #f3f5fc;
-  width: 35%;
+  /*background: #f3f5fc;*/
+  width: 35vw;
+  height: 80vh;
 }
 .central-panel {
   background: #ffffff;
@@ -98,7 +146,7 @@ main {
   flex-direction: column;
   text-align: center;
   width: 80%;
-  height: 95vh;
+  height: 75vh;
   border-radius: 50px;
   border: 1px solid #ffffff;
   margin-left: 4%;
@@ -115,9 +163,20 @@ main {
 .title-result {
   margin-top: 25px;
   font-family: "Inter", sans-serif;
-  font-size: 20pt;
+  font-size: 15pt;
   font-weight: bold;
+  animation-name: beats;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
+
+@keyframes beats {
+  from { transform: none; }
+  50% { transform: scale(1.05);}
+  to { transform: none; }
+}
+
 .information-result {
   margin-top: 25px;
   font-family: "Inter", sans-serif;
@@ -126,80 +185,253 @@ main {
 
 /*Result styles*/
 
+.result-section {
+  display: none;
+  flex-direction: column;
+  /*background: #f3f5fc;*/
+  width: 35vw;
+  height: 80vh;
+}
+
 .result-text {
   overflow: hidden;
   text-overflow: ellipsis;
   margin-top: 10vh;
   font-family: "Inter", sans-serif;
-  width: 70%;
-  height: 62vh;
+  width: 25vw;
+  height: 55vh;
   line-height: 25px;
   font-size: 14pt;
   color: #495057;
 }
-.copy-button {
-  margin-top: 2.5vh;
+
+/*Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #111111bd;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s 0.9s;
+  --transform: translateY(-100vh);
+  --transition: transform 0.8s;
 }
 
+.modal-show {
+  opacity: 1;
+  pointer-events: unset;
+  transition: opacity 0.6s;
+  --transform: translateY(0);
+  --transition: transform 0.5s 0.5s;
+}
+
+.modal-container {
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90%;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 3em 2.5em;
+  display: grid;
+  gap: 1em;
+  place-items: center;
+  grid-auto-columns: 100%;
+  transform: var(--transform);
+  transition: var(--transition);
+}
+
+.modal-title {
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #0a3871;
+  font-size: 16pt;
+}
+
+.modal-message {
+  width: 40vw;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  color: #0a3871;
+  font-size: 12pt;
+}
+
+.modal-img {
+  width: 5vw;
+}
+
+.modal-close {
+  font-family: "Inter", sans-serif;
+  font-size: 11pt;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f26250;
+  padding: 1em 3em;
+  border: 1px solid;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.modal-close:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/*Footer styles*/
+footer {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  background: #0a3871;
+}
+
+.footer-img {
+  margin-left: 2vw;
+  width: 2vw;
+  height: 2vw;
+}
+.copyright_text {
+  color: #ffffff;
+  margin-left: 25vw;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-size: 12pt;
+}
+
+/*Tablet Styles - <770px*/
 @media (max-width: 770px) {
   main {
     flex-direction: column;
   }
 
+
+  header{
+    font-size: 20pt;
+  }
+  .logo-aplication{
+    height: 20px;
+    width: 60px;
+    margin-right: 0;
+  }
   .encrypt-section {
     width: 100%;
     height: 90vh;
   }
-
-  .logo-alura{
+  .logo-alura {
     margin-left: 5%;
     margin-bottom: 5%;
   }
-
-  .message-encrypter,.encrypt-section .horizontal-ubication {
+  .message-encrypter,
+  .encrypt-section .horizontal-ubication,
+  .buttons_container {
     margin-left: 10%;
     width: 80%;
   }
-
-  .encrypt-button,.decrypt-button{
+  .encrypt-button,
+  .decrypt-button {
     width: 50%;
   }
-
-  .decrypt-section , .result-section{
+  .decrypt-section,
+  .result-section {
     width: 100%;
   }
-
   .central-panel {
     width: 90%;
     margin-left: 5%;
     border-radius: 20px;
-    margin-top : 0px;
+    margin-top: 0px;
     margin-bottom: 5vh;
     height: 15vh;
     padding-bottom: 5vh;
   }
-
-  .result-section .central-panel{
+  .result-section .central-panel {
     height: 40vh;
   }
-
-  .result-text{
+  .result-text {
     width: 80%;
     margin-left: 10%;
     height: 25vh;
     text-align: left;
   }
-
-
-
-  .copy-button{
+  .copy-button {
     align-self: center;
     width: 50%;
   }
-
-
-
   .result-imagen {
     display: none;
+  }
+
+  .copyright_text{
+    width: 60vw;
+    font-size: 10pt;
+    margin-left: 5vw;
+
+  }
+
+  .footer-img {
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/*Tablet Styles - <770px*/
+@media (max-width: 375px) {
+
+  header{
+    font-size: 15pt;
+  }
+  .logo-aplication{
+    height: 20px;
+    width: 60px;
+    margin-right: 0;
+  }
+  
+  .buttons_container {
+    background: transparent;
+    align-items: center;
+    height: 25vh;
+    flex-direction: column;
+  }
+
+  .decrypt-button {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .decrypt-section,
+  .result-section {
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+  }
+
+  .central-panel {
+    height: 25vh;
+    margin-bottom: 5vh;
+  }
+
+
+  .copyright_text{
+    width: 60vw;
+    font-size: 8pt;
+    margin-left: 5vw;
+
+  }
+
+  .footer-img {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
   }
 }
