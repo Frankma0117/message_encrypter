@@ -413,6 +413,41 @@ footer {
   }
 }
 
+/*Styles Ipad pro height > 1024*/
+
+@media (min-height: 1024px){
+  header {
+    font-size: 35pt;
+  }
+
+  .logo-aplication {
+    height: 5vw;
+    width: 15vw;
+    margin: 0;
+  }
+
+  .copyright_text {
+    margin-left: 5vw;
+    font-size: 15pt;
+  }
+
+  .decrypt-section,
+  .result-section {
+    margin-top: 2vh;
+  }
+  .result-imagen {
+    margin-top: 15vh;
+    margin-bottom: 1vh;
+    height: 25vh;
+    width: 20vw;
+  }
+
+  .message-encrypter {
+    height: 55vh;
+    margin-top: 5vh;
+  }
+}
+
 /*Tablet Styles - <770px*/
 @media (max-width: 375px) {
   header {
@@ -420,10 +455,11 @@ footer {
     height: 4vh;
   }
 
-  .message-encrypter, .message-encrypter::placeholder{
+  .message-encrypter,
+  .message-encrypter::placeholder {
     font-size: 12pt;
   }
-  .delete-icon{
+  .delete-icon {
     height: 20px;
     width: 20px;
   }
@@ -432,8 +468,7 @@ footer {
     margin-top: 5vh;
   }
 
-  .message-encrypter 
-  .logo-aplication {
+  .message-encrypter .logo-aplication {
     height: 20px;
     width: 60px;
     margin-right: 0;
