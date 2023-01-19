@@ -4,7 +4,7 @@
  </p>
  <p align="center">
    <a href="https://twitch.tv/midudev" target="blank" style='margin-right:4px'>
-    <img align="center" src="https://www.alejandrolopezparra.es/img/posts/GitHub-Pages.png" alt="midudev" height="50px" width="200px" />
+    <img align="center" src="https://www.alejandrolopezparra.es/img/posts/GitHub-Pages.png" alt="midudev" height="100px" width="200px" />
   </a>
 
 </p>
