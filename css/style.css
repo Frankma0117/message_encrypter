@@ -174,6 +174,7 @@ main {
   margin-top: 25px;
   padding-right: 5vw;
   padding-left: 5vw;
+  line-height: 20pt;
   font-family: "Inter", sans-serif;
   font-size: 15pt;
   font-weight: bold;
@@ -199,6 +200,8 @@ main {
   margin-top: 25px;
   padding-right: 5vw;
   padding-left: 5vw;
+  padding-bottom: 5vw;
+  line-height: 15pt;
   font-family: "Inter", sans-serif;
   font-size: 12pt;
 }
@@ -227,6 +230,7 @@ main {
 
 /*Modal styles */
 .modal {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -337,6 +341,7 @@ footer {
 
   header {
     font-size: 20pt;
+    height: 3vh;
   }
   .logo-aplication {
     height: 20px;
@@ -345,7 +350,7 @@ footer {
   }
   .encrypt-section {
     width: 100%;
-    height: 90vh;
+    height: 65vh;
   }
   .logo-alura {
     margin-left: 5%;
@@ -364,6 +369,9 @@ footer {
   .decrypt-section,
   .result-section {
     width: 100%;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    height: 50vh;
   }
   .central-panel {
     width: 90%;
@@ -393,6 +401,7 @@ footer {
 
   .copyright_text {
     width: 60vw;
+    line-height: 2vh;
     font-size: 10pt;
     margin-left: 5vw;
   }
@@ -412,8 +421,23 @@ footer {
 /*Tablet Styles - <770px*/
 @media (max-width: 375px) {
   header {
-    font-size: 15pt;
+    font-size: 12pt;
+    height: 4vh;
   }
+
+  .message-encrypter, .message-encrypter::placeholder{
+    font-size: 12pt;
+  }
+  .delete-icon{
+    height: 20px;
+    width: 20px;
+  }
+
+  .buttons_container {
+    margin-top: 5vh;
+  }
+
+  .message-encrypter 
   .logo-aplication {
     height: 20px;
     width: 60px;
@@ -434,8 +458,8 @@ footer {
 
   .decrypt-section,
   .result-section {
-    margin-top: 15vh;
-    margin-bottom: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
   }
 
   .central-panel {
@@ -444,7 +468,8 @@ footer {
   }
 
   .copyright_text {
-    width: 60vw;
+    width: 65vw;
+    line-height: 3vh;
     font-size: 8pt;
     margin-left: 5vw;
   }

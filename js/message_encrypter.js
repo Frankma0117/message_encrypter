@@ -32,7 +32,7 @@ function encrypt() {
     modalImagen.src = "https://i.ibb.co/Pz5QKmC/alert-icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
-      "Recuerda que los mensajes a encriptar no pueden estar vacíos ¡Dale en aceptar e ingresa nuevamente el mensaje!";
+      "Recuerda que los mensajes a encriptar no pueden estar vacíos ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
     modal.classList.add("modal-show");
   } else if (!/[A-ZáéíóúÁÉÍÓÚ]/.test(text)) {
     let result = text
@@ -48,7 +48,7 @@ function encrypt() {
     modalImagen.src = "https://i.ibb.co/Pz5QKmC/alert-icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
-      "Recuerda que los mensajes a encriptar no deben contener caracteres en mayúscula ni con acentos !Dale en aceptar e ingresa nuevamente el mensaje!";
+      "Recuerda que los mensajes a encriptar no deben contener caracteres en mayúscula ni con acentos ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
     modal.classList.add("modal-show");
   }
 }
@@ -59,7 +59,7 @@ function decrypt() {
     modalImagen.src = "https://i.ibb.co/Pz5QKmC/alert-icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
-      "Recuerda que los mensajes a desencriptar no pueden estar vacíos ¡Dale en aceptar e ingresa nuevamente el mensaje!";
+      "Recuerda que los mensajes a desencriptar no pueden estar vacíos ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
     modal.classList.add("modal-show");
   } else if (!/[A-ZáéíóúÁÉÍÓÚ]/.test(text)) {
     let result = text
@@ -75,7 +75,7 @@ function decrypt() {
     modalImagen.src = "https://i.ibb.co/Pz5QKmC/alert-icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
-      "Recuerda que los mensajes a desencriptar no deben contener caracteres en mayúscula ni con acentos !Dale en aceptar e ingresa nuevamente el mensaje!";
+      "Recuerda que los mensajes a desencriptar no deben contener caracteres en mayúscula ni con acentos ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
     modal.classList.add("modal-show");
   }
 }
@@ -96,7 +96,7 @@ function copyOption() {
   modalImagen.src = "https://i.ibb.co/xssjDWh/copy-icon.png";
   modalTitle.textContent = "Mensaje copiado";
   modalMessage.textContent =
-    "El mensaje fue copiado exitosamente ! Dale en aceptar y verifica en tu portapapeles y en el campo de ingreso del encriptador !";
+    "El mensaje fue copiado exitosamente ¡ Dale en aceptar y verifica en tu portapapeles y en el campo de ingreso del encriptador !";
   modal.classList.add("modal-show");
 }
 
