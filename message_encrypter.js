@@ -28,7 +28,7 @@ function encrypt() {
   let text = message.value;
 
   if (message.value == "") {
-    modalImagen.src = "/images/alert_icon.png";
+    modalImagen.src = "images/alert_icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
       "Recuerda que los mensajes a encriptar no pueden estar vacíos ¡Dale en aceptar e ingresa nuevamente el mensaje!";
@@ -44,7 +44,7 @@ function encrypt() {
     resultText.textContent = result;
     resultSectionText.style.display = "flex";
   } else {
-    modalImagen.src = "/images/alert_icon.png";
+    modalImagen.src = "images/alert_icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
       "Recuerda que los mensajes a encriptar no deben contener caracteres en mayúscula ni con acentos !Dale en aceptar e ingresa nuevamente el mensaje!";
@@ -55,7 +55,7 @@ function encrypt() {
 function decrypt() {
   let text = message.value;
   if (message.value == "") {
-    modalImagen.src = "/images/alert_icon.png";
+    modalImagen.src = "images/alert_icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
       "Recuerda que los mensajes a desencriptar no pueden estar vacíos ¡Dale en aceptar e ingresa nuevamente el mensaje!";
@@ -71,7 +71,7 @@ function decrypt() {
     resultText.textContent = result;
     resultSectionText.style.display = "flex";
   } else {
-    modalImagen.src = "/images/alert_icon.png";
+    modalImagen.src = "images/alert_icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
       "Recuerda que los mensajes a desencriptar no deben contener caracteres en mayúscula ni con acentos !Dale en aceptar e ingresa nuevamente el mensaje!";
@@ -92,7 +92,7 @@ function copy() {
 
 function copyOption() {
   copy();
-  modalImagen.src = "/images/copy_icon.png";
+  modalImagen.src = "images/copy_icon.png";
   modalTitle.textContent = "Mensaje copiado";
   modalMessage.textContent =
     "El mensaje fue copiado exitosamente ! Dale en aceptar y verifica en tu portapapeles y en el campo de ingreso del encriptador !";
