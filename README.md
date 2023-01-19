@@ -9,8 +9,9 @@
 
 </p>
  
-### 🔑 Descripción del challenge 🔐
+###   Descripción del challenge  ⏩
 
+ 
 El primer reto de Oracle Next Education en alianza con Alura Latam consistene en desarrollar una aplicación que permita la encriptación y desencriptación de textos permitiendo el intercambio de mensajes secretos con personas que conozcan la encriptación utilizada o con ayuda de la aplicación.
 
 Las "llaves" de encriptación que se implementan el la aplicación son las siguientes:
@@ -21,9 +22,37 @@ Las "llaves" de encriptación que se implementan el la aplicación son las sigui
 - La letra "o" es convertida para "ober"
 - La letra "u" es convertida para "ufat"
 
-### 🔑 Interfaz gráfica del encriptador 🔐
+Los requisitos mínimos solicitados para la aplicación son:
 
-### 🔑 Funcionamiento del encriptador 🔐
+- Debe funcionar solo con letras minúsculas
+- No deben ser utilizados letras con acentos ni caracteres especiales
+- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. 
 
-### 🔑 Aplicación responsive 🔐
+Las funcionalidades generales que la aplicación 
+requiere son mostrar los diferentes campos para 
+inserción del texto que será encriptado o desencriptado, 
+y el usuario debe poder escoger 
+entre as dos opciones al igual que el mostrar el resultado
+de la encriptación o desencriptación por pantalla. Un extra del
+challlenge es la implementación de un botón de copiar en la 
+sección del resultado.
 
+Algunos ejemplos del proceso de enciptación son :
+
+- "gato" => "gaitober"
+gaitober" => "gato"
+- "perro" => "penterrrober"
+penterrrober" => "perro"
+- "mariposa" => "mairimespobersai"
+mairimespobersai" => "mariposa"
+- "hola mundo" => "hoberlai mufatndober"
+hoberlai mufatndober" => "hola mundo"
+
+
+### 🖌 Interfaz gráfica del encriptador 🎨
+
+    
+
+###  Funcionamiento del encriptador 📊
+
+###  Aplicación responsive 🖥 💻 📱 
