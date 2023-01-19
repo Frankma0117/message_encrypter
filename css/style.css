@@ -341,7 +341,6 @@ footer {
 
   header {
     font-size: 20pt;
-    height: 3vh;
   }
   .logo-aplication {
     height: 20px;
@@ -350,7 +349,7 @@ footer {
   }
   .encrypt-section {
     width: 100%;
-    height: 65vh;
+    height: 90vh;
   }
   .logo-alura {
     margin-left: 5%;
@@ -369,9 +368,6 @@ footer {
   .decrypt-section,
   .result-section {
     width: 100%;
-    margin-top: 0vh;
-    margin-bottom: 0vh;
-    height: 50vh;
   }
   .central-panel {
     width: 90%;
@@ -401,7 +397,6 @@ footer {
 
   .copyright_text {
     width: 60vw;
-    line-height: 2vh;
     font-size: 10pt;
     margin-left: 5vw;
   }
