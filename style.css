@@ -21,7 +21,9 @@ header {
   margin-right: 25vw;
 }
 
-.logo-aplication:hover , .footer-img:hover{
+.logo-aplication:hover,
+.footer-img:hover,
+.delete-icon:hover {
   animation-name: rotateImagen;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -29,13 +31,12 @@ header {
 }
 
 @keyframes rotateImagen {
-
-  from{
+  from {
     transform: rotate(0deg);
-  }to{
+  }
+  to {
     transform: rotate(360deg);
   }
-  
 }
 
 header span {
@@ -73,18 +74,25 @@ main {
   height: 80vh;
   background: #f3f5fc;
 }
+.delete-icon {
+  margin-left: 50vw;
+  margin-top: 5vh;
+  width: 25px;
+  height: 25px;
+}
 .message-encrypter {
   background: transparent;
   border: none;
   resize: none;
   margin: 5vw 10vw;
-  height: 45vh;
+  height: 35vh;
   width: 40vw;
   font-family: "Inter", sans-serif;
   color: #0a3871;
   font-size: 16pt;
   line-height: 30px;
 }
+
 .message-encrypter:focus {
   outline: none;
 }
@@ -115,7 +123,9 @@ main {
   font-size: 12pt;
 }
 .encrypt-button:hover,
-.decrypt-button:hover, .copy-button:hover {
+.decrypt-button:hover,
+.copy-button:hover,
+.delete-icon:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -172,9 +182,15 @@ main {
 }
 
 @keyframes beats {
-  from { transform: none; }
-  50% { transform: scale(1.05);}
-  to { transform: none; }
+  from {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: none;
+  }
 }
 
 .information-result {
@@ -315,11 +331,10 @@ footer {
     flex-direction: column;
   }
 
-
-  header{
+  header {
     font-size: 20pt;
   }
-  .logo-aplication{
+  .logo-aplication {
     height: 20px;
     width: 60px;
     margin-right: 0;
@@ -372,7 +387,7 @@ footer {
     display: none;
   }
 
-  .copyright_text{
+  .copyright_text {
     width: 60vw;
     font-size: 10pt;
     margin-left: 5vw;
@@ -383,20 +398,24 @@ footer {
     width: 30px;
     height: 30px;
   }
+
+  .delete-icon {
+    margin-left: 85vw;
+    margin-bottom: 1vh;
+  }
 }
 
 /*Tablet Styles - <770px*/
 @media (max-width: 375px) {
-
-  header{
+  header {
     font-size: 15pt;
   }
-  .logo-aplication{
+  .logo-aplication {
     height: 20px;
     width: 60px;
     margin-right: 0;
   }
-  
+
   .buttons_container {
     background: transparent;
     align-items: center;
@@ -420,17 +439,20 @@ footer {
     margin-bottom: 5vh;
   }
 
-
-  .copyright_text{
+  .copyright_text {
     width: 60vw;
     font-size: 8pt;
     margin-left: 5vw;
-
   }
 
   .footer-img {
     margin-left: 20px;
     width: 20px;
     height: 20px;
+  }
+
+  .delete-icon {
+    margin-left: 85vw;
+    margin-bottom: 1vh;
   }
 }
