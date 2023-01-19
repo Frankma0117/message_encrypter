@@ -172,6 +172,8 @@ main {
 }
 .title-result {
   margin-top: 25px;
+  padding-right: 5vw;
+  padding-left: 5vw;
   font-family: "Inter", sans-serif;
   font-size: 15pt;
   font-weight: bold;
@@ -195,6 +197,8 @@ main {
 
 .information-result {
   margin-top: 25px;
+  padding-right: 5vw;
+  padding-left: 5vw;
   font-family: "Inter", sans-serif;
   font-size: 12pt;
 }
