@@ -28,16 +28,10 @@ Los requisitos mínimos solicitados para la aplicación son:
 - No deben ser utilizados letras con acentos ni caracteres especiales
 - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. 
 
-Las funcionalidades generales que la aplicación 
-requiere son mostrar los diferentes campos para 
-inserción del texto que será encriptado o desencriptado, 
-y el usuario debe poder escoger 
-entre as dos opciones al igual que el mostrar el resultado
-de la encriptación o desencriptación por pantalla. Un extra del
-challlenge es la implementación de un botón de copiar en la 
-sección del resultado.
+Las funcionalidades generales que la aplicación requiere son mostrar los diferentes campos para 
+inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones al igual que el mostrar el resultado de la encriptación o desencriptación por pantalla. Un extra del challlenge es la implementación de un botón de copiar en la sección del resultado.
 
-Algunos ejemplos del proceso de enciptación son :
+Algunos ejemplos del proceso de encriptación y desencriptación son :
 
 - "gato" => "gaitober"
 gaitober" => "gato"
