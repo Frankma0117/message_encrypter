@@ -44,7 +44,24 @@ hoberlai mufatndober" => "hola mundo"
 
 
 ### 🖌 Interfaz gráfica del encriptador 🎨
-
+<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+</a>
+<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+</a>
+<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+</a>
+<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+</a>
+<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+</a>
+<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+</a>
     
 
 ###  Funcionamiento del encriptador 📊
