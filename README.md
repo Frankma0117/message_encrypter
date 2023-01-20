@@ -58,7 +58,7 @@ La interfaz gráfica del encriptador está basada completamente en el diseño pr
 </a>
  
 ###  Funcionamiento del encriptador 📊
-El funcionamiento del encriptador es perceptible por medio del video mostrado a continuación , igualmente la aplicación se encuentra desplegaba en GitHub Pages para su respectiva revisión [Encriptador](https://frankma0117.github.io/message_encrypter/).
+El funcionamiento del [Encriptador](https://frankma0117.github.io/message_encrypter/). es perceptible por medio del video mostrado a continuación , igualmente la aplicación se encuentra desplegaba en GitHub Pages para su respectiva revisión.
 
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
