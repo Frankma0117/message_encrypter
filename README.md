@@ -64,7 +64,7 @@ La interfaz gráfica del encriptador está basada completamente en el diseño pr
 </a>
  
 ###  Funcionamiento del encriptador 📊
-El funcionamiento del [Encriptador](https://frankma0117.github.io/message_encrypter/). es perceptible por medio del video mostrado a continuación , igualmente la aplicación se encuentra desplegaba en GitHub Pages para su respectiva revisión.
+El funcionamiento del [Encriptador](https://frankma0117.github.io/message_encrypter/) es perceptible por medio del video mostrado a continuación , igualmente la aplicación se encuentra desplegaba en GitHub Pages para su respectiva revisión.
 
 <a href='https://media0.giphy.com/media/Orh8rexc9kYGr5kafh/giphy.gif?cid=790b7611cafe8a7d4585a0f8c3f16a87b85203c4c7f1e293&rid=giphy.gif&ct=g' target='_blank'>
   <img width='50%' src='https://media0.giphy.com/media/Orh8rexc9kYGr5kafh/giphy.gif?cid=790b7611cafe8a7d4585a0f8c3f16a87b85203c4c7f1e293&rid=giphy.gif&ct=g' alt='Funcionamiento del encriptador - Gif' />
