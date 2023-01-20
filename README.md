@@ -91,8 +91,8 @@ El desarrollo del encriptador se realizó con las tecnologías HTML , CSS y el l
 El proyecto fue desarrollado por Manuel Cañón implementando el manejo de versiones y las diferentes tecnologías mencionadas.
 
 <a href='https://www.linkedin.com/in/manuel-ca%C3%B1%C3%B3n-b6245118a' target='_blank'>
-  <img width='50%' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png' alt='LinkedIn del desarrollador' />
+  <img width='40%' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png' alt='LinkedIn del desarrollador' />
 </a>
 <a href='https://github.com/Frankma0117' target='_blank'>
-  <img width='50%' src='https://i0.wp.com/unaaldia.hispasec.com/wp-content/uploads/2021/04/github.png?fit=1150%2C465&ssl=1' alt='GitHub del desarrollador' />
+  <img width='40%' src='https://i0.wp.com/unaaldia.hispasec.com/wp-content/uploads/2021/04/github.png?fit=1150%2C465&ssl=1' alt='GitHub del desarrollador' />
 </a>
