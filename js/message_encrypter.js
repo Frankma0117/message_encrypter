@@ -23,6 +23,8 @@ const yearCopyright = document.querySelector(".copyright_text");
 let today = new Date();
 let year = today.getFullYear();
 
+console.log(/[a-z]/.test(".*sd"));
+
 yearCopyright.textContent = `© Copyright ${year} -  Desarrollado por Manuel Cañón -  Oracle Next Education `;
 
 function encrypt() {
@@ -34,7 +36,7 @@ function encrypt() {
     modalMessage.textContent =
       "Recuerda que los mensajes a encriptar no pueden estar vacíos ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
     modal.classList.add("modal-show");
-  } else if (!/[A-ZáéíóúÁÉÍÓÚ]/.test(text)) {
+  } else if (validate(text)) {
     let result = text
       .replaceAll("e", "enter")
       .replaceAll("i", "imes")
@@ -48,9 +50,23 @@ function encrypt() {
     modalImagen.src = "https://i.ibb.co/Pz5QKmC/alert-icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
-      "Recuerda que los mensajes a encriptar no deben contener caracteres en mayúscula ni con acentos ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
+      "Recuerda que los mensajes a encriptar no deben contener caracteres en mayúscula ni con acentos o caracteres especiales ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
     modal.classList.add("modal-show");
   }
+}
+
+function validate(text) {
+  let result = true;
+  for (i = 0; i < text.length; i++) {
+    if (
+      (text.charCodeAt(i) >= 97 && text.charCodeAt(i) <= 122) ||
+      (text.charCodeAt(i) >= 48 && text.charCodeAt(i) <= 57)
+    ) {
+    } else {
+      result = false;
+    }
+  }
+  return result;
 }
 
 function decrypt() {
@@ -75,7 +91,7 @@ function decrypt() {
     modalImagen.src = "https://i.ibb.co/Pz5QKmC/alert-icon.png";
     modalTitle.textContent = "Error al encriptar";
     modalMessage.textContent =
-      "Recuerda que los mensajes a desencriptar no deben contener caracteres en mayúscula ni con acentos ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
+      "Recuerda que los mensajes a desencriptar no deben contener caracteres en mayúscula ni con acentos o caracteres especiales ¡ Dale en aceptar e ingresa nuevamente el mensaje !";
     modal.classList.add("modal-show");
   }
 }
@@ -103,7 +119,7 @@ function copyOption() {
 function close() {
   modal.classList.remove("modal-show");
 }
-function cleanText(){
+function cleanText() {
   message.value = "";
 }
 

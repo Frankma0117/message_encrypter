@@ -420,6 +420,10 @@ footer {
     font-size: 30pt;
   }
 
+  header span {
+    padding: 5px;
+  }
+
   .logo-aplication {
     height: 50px;
     width: 110px;
@@ -451,10 +455,10 @@ footer {
   }
 }
 
-/*Tablet Styles - <770px*/
+/*Tablet Styles - <415px*/
 @media (max-width: 415px) {
   header {
-    font-size: 15pt;
+    font-size: 13pt;
     height: 4vh;
   }
 
@@ -516,5 +520,24 @@ footer {
   .delete-icon {
     margin-left: 85vw;
     margin-bottom: 1vh;
+  }
+}
+
+/*Phone fold*/
+@media (max-width: 285px) {
+  header {
+    padding-top: 3vh;
+    font-size: 10pt;
+    height: 4vh;
+  }
+
+  .copyright_text{
+    font-size: 8pt;
+    line-height: 10pt;
+  }
+
+  .footer-img{
+    margin-right: 15px ;
+    margin-left: 0;
   }
 }
