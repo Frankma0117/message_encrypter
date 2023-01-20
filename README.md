@@ -64,17 +64,17 @@ El funcionamiento del encriptador es evidenciable por medio de [GitHub Pages](ht
 ### Aplicación responsive 🖥 💻 📱 
 El desarrollo del encriptador se realizó con las tecnologías HTML , CSS y el lenguaje de programación Javascript que permitieron desarrollar la interfaz gráfica de la aplicación y la parte lógica de la encriptación y desencriptación de mensajes , igualmente permiten realizar las respectivas validaciones de letras mayúsculas , mensajes vacíos y acentuación en el proceso de encriptación, el funcionamiento de la aplicación es evidenciable en el siguiente bloque de imágenes en cada uno de los dispositivos propuestos , exceptuando el diseño desktop que fue expuesto en la anterir sección.
 
-<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+<a href='https://i.ibb.co/MM6c106/Movil-1.png' target='_blank'>
+  <img width='45%' src='https://i.ibb.co/MM6c106/Movil-1.png' alt='Aplicación Móvil - Encriptar' />
 </a>
-<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+<a href='https://i.ibb.co/44KV5Zx/Movil-3.png' target='_blank'>
+  <img width='45%' src='https://i.ibb.co/44KV5Zx/Movil-3.png' alt='Aplicación Móvil - Desencriptar' />
 </a>
-<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+<a href='https://i.ibb.co/YdGP974/Tab-1.png' target='_blank'>
+  <img width='45%' src='https://i.ibb.co/YdGP974/Tab-1.png' alt='Aplicación Tablet - Encriptar' />
 </a>
-<a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+<a href='https://i.ibb.co/YDPRYJt/Tab-2.png' target='_blank'>
+  <img width='45%' src='https://i.ibb.co/YDPRYJt/Tab-2.png' alt='Aplicación Tablet - Desencriptar' />
 </a>
 
 ### Desarrollador 💻 🖱️
