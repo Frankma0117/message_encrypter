@@ -57,14 +57,15 @@ La interfaz gráfica del encriptador está basada completamente en el diseño pr
   <img width='45%' src='https://i.ibb.co/MkFWj7z/Figma-2.png' alt='Diseño Figma Desktop - Desencriptar' />
 </a>
 
-###  Funcionamiento del encriptador 📊
+### Funcionamiento del encriptador 📊
 El funcionamiento del [Encriptador](https://frankma0117.github.io/message_encrypter/) es perceptible por medio del video mostrado a continuación , igualmente la aplicación se encuentra desplegaba en GitHub Pages para su respectiva revisión.
 
 <a href='https://media0.giphy.com/media/Orh8rexc9kYGr5kafh/giphy.gif?cid=790b7611cafe8a7d4585a0f8c3f16a87b85203c4c7f1e293&rid=giphy.gif&ct=g' target='_blank'>
   <img width='50%' src='https://media0.giphy.com/media/Orh8rexc9kYGr5kafh/giphy.gif?cid=790b7611cafe8a7d4585a0f8c3f16a87b85203c4c7f1e293&rid=giphy.gif&ct=g' alt='Funcionamiento del encriptador - Gif' />
 </a>
 <br>
-###  Aplicación responsive 🖥 💻 📱 
+
+### Aplicación responsive 🖥 💻 📱 
 El desarrollo del encriptador se realizó con las tecnologías HTML , CSS y el lenguaje de programación Javascript que permitieron desarrollar la interfaz gráfica de la aplicación y la parte lógica de la encriptación y desencriptación de mensajes , igualmente permiten realizar las respectivas validaciones de letras mayúsculas , mensajes vacíos y acentuación en el proceso de encriptación, el funcionamiento de la aplicación es evidenciable en el siguiente bloque de imágenes , por medio de los tres ejemplos iniciales y su implementación en los tres dispositivos propuestos.
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
