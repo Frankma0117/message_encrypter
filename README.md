@@ -69,22 +69,22 @@ El funcionamiento del [Encriptador](https://frankma0117.github.io/message_encryp
 El desarrollo del encriptador se realizó con las tecnologías HTML , CSS y el lenguaje de programación Javascript que permitieron desarrollar la interfaz gráfica de la aplicación y la parte lógica de la encriptación y desencriptación de mensajes , igualmente permiten realizar las respectivas validaciones de letras mayúsculas , mensajes vacíos y acentuación en el proceso de encriptación, el funcionamiento de la aplicación es evidenciable en el siguiente bloque de imágenes en cada uno de los dispositivos propuestos.
 
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='50%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='50%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='50%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='50%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='50%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
-  <img width='50%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
+  <img width='45%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
 
 ### Desarrollador 💻 🖱️
