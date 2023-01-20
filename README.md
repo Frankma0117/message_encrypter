@@ -58,12 +58,8 @@ La interfaz gráfica del encriptador está basada completamente en el diseño pr
 </a>
 
 ### Funcionamiento del encriptador 📊
-El funcionamiento del [Encriptador](https://frankma0117.github.io/message_encrypter/) es perceptible por medio del video mostrado a continuación , igualmente la aplicación se encuentra desplegaba en GitHub Pages para su respectiva revisión.
+El funcionamiento del encriptador es evidenciable por medio de GitHub Pages [Encriptador](https://frankma0117.github.io/message_encrypter/).
 
-<a href='https://youtu.be/a-sTixuVAZg' target='_blank'>
-  <img width='50%' src='https://youtu.be/a-sTixuVAZg' alt='Video del funcionamiento del encriptador' />
-</a>
-<br>
 
 ### Aplicación responsive 🖥 💻 📱 
 El desarrollo del encriptador se realizó con las tecnologías HTML , CSS y el lenguaje de programación Javascript que permitieron desarrollar la interfaz gráfica de la aplicación y la parte lógica de la encriptación y desencriptación de mensajes , igualmente permiten realizar las respectivas validaciones de letras mayúsculas , mensajes vacíos y acentuación en el proceso de encriptación, el funcionamiento de la aplicación es evidenciable en el siguiente bloque de imágenes en cada uno de los dispositivos propuestos , exceptuando el diseño desktop que fue expuesto en la anterir sección.
