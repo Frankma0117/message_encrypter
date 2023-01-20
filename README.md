@@ -52,17 +52,6 @@ La interfaz gráfica del encriptador está basada completamente en el diseño pr
   <img width='45%' src='https://i.ibb.co/MkFWj7z/Figma-2.png' alt='Diseño Figma Desktop - Desencriptar' />
 </a>
 
-<a href='https://i.ibb.co/MMR7QTd/Figma-3.png' target='_blank'>
-  <img width='22%' height='400px' src='https://i.ibb.co/MMR7QTd/Figma-3.png' alt='Diseño Figma Móvil - Encriptar' /></a>
-<a href='https://i.ibb.co/vd36SPy/Figma-4.png' target='_blank'>
-  <img width='22%' height='400px' src="https://i.ibb.co/vd36SPy/Figma-4.png" alt='Diseño Figma Móvil - Desencriptar' />
-</a>
-<a href='https://i.ibb.co/syb74yp/Figma-5.png' target='_blank'>
-  <img width='22%' height='400px' src='https://i.ibb.co/syb74yp/Figma-5.png' alt='Diseño Figma Móvil - Encriptar' /></a>
-<a href='https://i.ibb.co/Bqg8y4Y/Figma-6.png' target='_blank'>
-  <img width='22%' height='400px' src="https://i.ibb.co/Bqg8y4Y/Figma-6.png" alt='Diseño Figma Móvil - Desencriptar' />
-</a>
- 
 ###  Funcionamiento del encriptador 📊
 El funcionamiento del [Encriptador](https://frankma0117.github.io/message_encrypter/) es perceptible por medio del video mostrado a continuación , igualmente la aplicación se encuentra desplegaba en GitHub Pages para su respectiva revisión.
 
