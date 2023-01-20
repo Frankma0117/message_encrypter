@@ -53,14 +53,14 @@ La interfaz gráfica del encriptador está basada completamente en el diseño pr
 </a>
 
 <a href='https://i.ibb.co/MMR7QTd/Figma-3.png' target='_blank'>
-  <img width='22%' height='350px' src='https://i.ibb.co/MMR7QTd/Figma-3.png' alt='Diseño Figma Móvil - Encriptar' /></a>
+  <img width='22%' height='370px' src='https://i.ibb.co/MMR7QTd/Figma-3.png' alt='Diseño Figma Móvil - Encriptar' /></a>
 <a href='https://i.ibb.co/vd36SPy/Figma-4.png' target='_blank'>
-  <img width='22%' height='350px' src="https://i.ibb.co/vd36SPy/Figma-4.png" alt='Diseño Figma Móvil - Desencriptar' />
+  <img width='22%' height='370px' src="https://i.ibb.co/vd36SPy/Figma-4.png" alt='Diseño Figma Móvil - Desencriptar' />
 </a>
 <a href='https://i.ibb.co/MMR7QTd/Figma-3.png' target='_blank'>
-  <img width='22%' height='350px' src='https://i.ibb.co/MMR7QTd/Figma-3.png' alt='Diseño Figma Móvil - Encriptar' /></a>
+  <img width='22%' height='370px' src='https://i.ibb.co/MMR7QTd/Figma-3.png' alt='Diseño Figma Móvil - Encriptar' /></a>
 <a href='https://i.ibb.co/vd36SPy/Figma-4.png' target='_blank'>
-  <img width='22%' height='350px' src="https://i.ibb.co/vd36SPy/Figma-4.png" alt='Diseño Figma Móvil - Desencriptar' />
+  <img width='22%' height='370px' src="https://i.ibb.co/vd36SPy/Figma-4.png" alt='Diseño Figma Móvil - Desencriptar' />
 </a>
  
 ###  Funcionamiento del encriptador 📊
