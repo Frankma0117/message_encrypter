@@ -51,9 +51,9 @@ La interfaz gráfica del encriptador está basada completamente en el diseño pr
 <a href='https://i.ibb.co/MkFWj7z/Figma-2.png' target='_blank'>
   <img width='30%' src='https://i.ibb.co/MkFWj7z/Figma-2.png' alt='Diseño Figma Desktop - Desencriptar' />
 </a>
-<a href='' target='_blank'>
+<a href='https://i.ibb.co/tXRmx1S/Figma-1.png](https://i.ibb.co/MMR7QTd/Figma-3.png' target='_blank'>
   <img width='30%' src='https://i.ibb.co/tXRmx1S/Figma-1.png](https://i.ibb.co/MMR7QTd/Figma-3.png' alt='Diseño Figma Móvil - Encriptar' /></a>
-<a href='' target='_blank'>
+<a href='https://i.ibb.co/MkFWj7z/Figma-2.png](https://i.ibb.co/vd36SPy/Figma-4.png' target='_blank'>
   <img width='30%' src='https://i.ibb.co/MkFWj7z/Figma-2.png](https://i.ibb.co/vd36SPy/Figma-4.png' alt='Diseño Figma Móvil - Desencriptar' />
 </a>
  
