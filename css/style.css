@@ -415,14 +415,14 @@ footer {
 
 /*Styles Ipad pro height > 1024*/
 
-@media (min-height: 1024px){
+@media (min-height: 1024px) {
   header {
     font-size: 30pt;
   }
 
   .logo-aplication {
-    height: 5vw;
-    width: 15vw;
+    height: 50px;
+    width: 110px;
     margin: 0;
   }
 
@@ -443,8 +443,11 @@ footer {
   }
 
   .message-encrypter {
-    height: 55vh;
+    height: 50vh;
     margin-top: 5vh;
+  }
+  .modal-message {
+    width: 30vw;
   }
 }
 
