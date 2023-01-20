@@ -1,5 +1,5 @@
 <p align="center" width="300">
-    <img align="center" width="200" src="https://i.ibb.co/BgCh98K/Imagen.png" alt="Insignia del Challenge ONE" />
+    <img align="center" width="200" src="https://i.ibb.co/KqBWVc7/Challenge.png" alt="Insignia del Challenge ONE" />
     <h3 align="center">🔑 Challenge - Encriptador de mensajes 🔐 <br> 🍵 Oracle Next Education 🎓 </h3>
  </p>
  <p align="center">
