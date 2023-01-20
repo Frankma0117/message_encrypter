@@ -45,7 +45,7 @@ hoberlai mufatndober" => "hola mundo"
 
 ### 🖌 Interfaz gráfica del encriptador 🎨
 La interfaz gráfica del encriptador está basada completamente en el diseño propuesto por Alura Latam directamente desde la herramienta Figma teniendo presente el [Diseño propuesto](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1). en el cual se exponen las diferentes características gráficas de la aplicación , las imágenes a aplicar y la estructura general del producto final , igualmente se manejan los diseños desde la herramienta para la parte móvil y dispositivos tablet con diferentes medidas y ubicación de los componentes , agregado a ello como implementación extra se agrega un header con el título del proyecto y un footer con el año y las redes del desarrollador. El diseño original es el presentado en las primeras seis imagenes y los cambios agregados en el segundo grupo de seis imágenes.
-<br>
+<br><br>
 <a href='https://i.ibb.co/tXRmx1S/Figma-1.png' target='_blank'>
   <img width='45%' src='https://i.ibb.co/tXRmx1S/Figma-1.png' alt='Diseño Figma Desktop - Encriptar' /></a>
 <a href='https://i.ibb.co/MkFWj7z/Figma-2.png' target='_blank'>
