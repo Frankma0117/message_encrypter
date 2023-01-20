@@ -44,7 +44,7 @@ hoberlai mufatndober" => "hola mundo"
 
 
 ### 🖌 Interfaz gráfica del encriptador 🎨
-La interfaz gráfica del encritador está basada completamente en el diseño propuesto por Alura Latam directamente desde la herramienta [Figma](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1). en la cual se exponen las diferentes características gráficas de la aplicación , las imágenes a aplicar y la estructura general del producto final , igualmente se manejan los diseños desde la herramienta para la parte móvil y dispositivos tablet con diferentes medidas y ubicación de los componentes , agregado a ello como implementación extra se agrega un header con el título del proyecto y un footer con el año y las redes del desarrollador.
+La interfaz gráfica del encriptador está basada completamente en el diseño propuesto por Alura Latam directamente desde la herramienta Figma teniendo presente el [Diseño propuesto](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1). en el cual se exponen las diferentes características gráficas de la aplicación , las imágenes a aplicar y la estructura general del producto final , igualmente se manejan los diseños desde la herramienta para la parte móvil y dispositivos tablet con diferentes medidas y ubicación de los componentes , agregado a ello como implementación extra se agrega un header con el título del proyecto y un footer con el año y las redes del desarrollador. El diseño original es el presentado en las primeras seis imagenes y los cambios agregados en el segundo grupo de seis imágenes.
 <br>
 <a href='https://i.ibb.co/tXRmx1S/Figma-1.png' target='_blank'>
   <img width='30%' src='https://i.ibb.co/tXRmx1S/Figma-1.png' alt='Diseño Figma Desktop - Encriptar' /></a>
@@ -57,12 +57,9 @@ La interfaz gráfica del encritador está basada completamente en el diseño pro
   <img width='30%' src='https://i.ibb.co/MkFWj7z/Figma-2.png' alt='Diseño Figma Desktop - Desencriptar' />
 </a>
  
- 
-
-
-    
-
 ###  Funcionamiento del encriptador 📊
+El funcionamiento del encriptador es perceptible por medio del video mostrado a continuación , igualmente la aplicación se encuentra desplegaba en GitHub Pages para su respectiva revisión [Encriptador](https://frankma0117.github.io/message_encrypter/).
+
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
@@ -82,6 +79,7 @@ La interfaz gráfica del encritador está basada completamente en el diseño pro
   <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
 ###  Aplicación responsive 🖥 💻 📱 
+El desarrollo del encriptador se realizó con las tecnologías HTML , CSS y el lenguaje de programación Javascript que permitieron desarrollar la interfaz gráfica de la aplicación y la parte lógica de la encriptación y desencriptación de mensajes , igualmente permiten realizar las respectivas validaciones de letras mayúsculas , mensajes vacíos y acentuación en el proceso de encriptación, el funcionamiento de la aplicación es evidenciable en el siguiente bloque de imágenes , por medio de los tres ejemplos iniciales y su implementación en los tres dispositivos propuestos.
 <a href='https://youtu.be/NGmIZD2bXsE' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/NGmIZD2bXsE/mqdefault.jpg' alt='¡5 CONSEJOS para que te SUBAN el SUELDO en PROGRAMACIÓN!' />
 </a>
