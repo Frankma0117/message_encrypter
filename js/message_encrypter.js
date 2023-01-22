@@ -60,7 +60,8 @@ function validate(text) {
   for (i = 0; i < text.length; i++) {
     if (
       (text.charCodeAt(i) >= 97 && text.charCodeAt(i) <= 122) ||
-      (text.charCodeAt(i) >= 48 && text.charCodeAt(i) <= 57)
+      (text.charCodeAt(i) >= 48 && text.charCodeAt(i) <= 57) ||
+      text.charCodeAt(i) == 32
     ) {
     } else {
       result = false;
